@@ -1,47 +1,35 @@
-# PortForce
+PortForceX - Tool Description
+PortForceX is a brute-force attack tool designed to test login credentials on open ports. It automates the process of trying multiple username and password combinations against a target service running on a specific port.
 
-A Custom Port Brute Force Tool created for use in CTF's and Pentests.
+How It Works:
+Loads a list of usernames and passwords from text files.
 
-<a href="https://raw.githubusercontent.com/jhalon/jhalon.github.io/master/images/port_force.png"><img src="https://raw.githubusercontent.com/jhalon/jhalon.github.io/master/images/port_force.png"></a>
+Attempts to authenticate to the target IP and port using brute force.
 
-Yes, there are a lot of tools out there that do Brute Force for Telnet, SSH, FTP, etc.
+Verifies the target’s availability via a ping test before starting the attack.
 
-This tool was created to aid in brute forcing custom ports/daemons that don't typically run on SSH, FTP, etc.
+Displays each login attempt and stops upon a successful authentication.
 
-## Install:
+Usage:
+sh
+Copy
+Edit
+python port_force.py -t <IP> -p <PORT> -u <USER_LIST> -P <PASS_LIST>
+Example:
+sh
+Copy
+Edit
+python port_force.py -t 192.168.0.1 -p 22 -u users.txt -P passwords.txt
+Arguments:
+-t or --target → Target IP address
 
-You can install PortForce by cloning this Git Repository
+-p or --port → Port number to attack
 
-```console
-$ git clone https://github.com/jhalon/PortForce.git
-```
+-u or --user → File containing usernames
 
-## Usage:
+-P or --pass → File containing passwords
 
-```console
-Usage: ./port_force -t 192.168.0.1 -p 1234 -u users.txt -P pass.txt
-
--h --help            - display usage information
--t --target          - set IP address of Target
--p --port            - set Port for Target
--u --user            - set a list of usernames to brute force
--P --pass            - set a list of passwords to brute force
-```
-
-## Requirements:
-
-Since this was created using Python v2.7.13 it will not be compatible with Python v3.x.
-
-* Python v2.7.13 - [Download](https://www.python.org/downloads/release/python-2713/)
-
-## Bugs?
-
-* Please Submit a new Issue
-* Submit a Pull Request
-* Contact me
-
-## License:
-
-PortForce is under the terms of the [MIT License](https://www.tldrlegal.com/l/mit), follow clarification in the [License File](https://github.com/jhalon/PortForce/blob/master/LICENSE).
-
+Important Notes:
+⚠️ Unauthorized use of this tool is illegal and may lead to serious consequences.
+✅ For ethical penetration testing only. Ensure you have permission before use.
 
