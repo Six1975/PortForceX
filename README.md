@@ -10,16 +10,21 @@ Verifies the target’s availability via a ping test before starting the attack.
 
 Displays each login attempt and stops upon a successful authentication.
 
-Usage:
+Usage:![image](https://github.com/user-attachments/assets/07809d80-b63b-4cd4-beea-005f6ef5ea3c)
+
 sh
 Copy
 Edit
-python port_force.py -t <IP> -p <PORT> -u <USER_LIST> -P <PASS_LIST>
+
+(  python port_force.py -t <IP> -p <PORT> -u <USER_LIST> -P <PASS_LIST>  )
+
 Example:
 sh
 Copy
 Edit
-python port_force.py -t 192.168.0.1 -p 22 -u users.txt -P passwords.txt
+
+(  python port_force.py -t 192.168.0.1 -p 22 -u users.txt -P passwords.txt  )
+
 Arguments:
 -t or --target → Target IP address
 
