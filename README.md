@@ -10,7 +10,10 @@ Verifies the target’s availability via a ping test before starting the attack.
 
 Displays each login attempt and stops upon a successful authentication.
 
-Usage:![image](https://github.com/user-attachments/assets/07809d80-b63b-4cd4-beea-005f6ef5ea3c)
+![image](https://github.com/user-attachments/assets/b6301aa9-a498-4e6b-95c4-7f60d52f6c2a)
+
+
+Usage:
 
 sh
 Copy
