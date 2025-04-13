@@ -38,6 +38,7 @@ Arguments:
 -P or --pass → File containing passwords
 
 Important Notes:
+
 ⚠️ Unauthorized use of this tool is illegal and may lead to serious consequences.
 
 ✅ For ethical penetration testing only. Ensure you have permission before use.
