@@ -10,7 +10,7 @@ Verifies the target’s availability via a ping test before starting the attack.
 
 Displays each login attempt and stops upon a successful authentication.
 
-![image](https://github.com/user-attachments/assets/b6301aa9-a498-4e6b-95c4-7f60d52f6c2a)
+<img width="1034" height="505" alt="1f6r8bp" src="https://github.com/user-attachments/assets/9138c990-8ac1-4ee3-8d84-7426289eb193" />
 
 
 Usage:
