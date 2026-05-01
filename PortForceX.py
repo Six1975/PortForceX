@@ -24,8 +24,8 @@ def banner():
     print(bcolors.HEADER + " / ____/ /_/ / /  / /_   / __/ / /_/ / /  / /__/  __/" + bcolors.ENDC)
     print(bcolors.HEADER + "/_/    \\____/_/   \\__/  /_/    \\____/_/   \\___/\\___/ " + bcolors.ENDC)
     print()
-    print(bcolors.HEADER + "             Created By: SayerSix (byt)            " + bcolors.ENDC)
-    print(bcolors.HEADER + "                 insta: @860a_                " + bcolors.ENDC)
+    print(bcolors.HEADER + "             Created By: SayerSix (isi)            " + bcolors.ENDC)
+    print(bcolors.HEADER + "                 insta: @foia.l                " + bcolors.ENDC)
     print()
 
 def usage():
